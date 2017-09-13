@@ -37,9 +37,4 @@
 +(void)registerNetworkNotification:(id<NSNetworkMonitorProtocol>)listener;
 +(void)removeNetworkNotification:(id<NSNetworkMonitorProtocol>)listener;
 
-/**
- * @brief 网络状态波动通知
- */
-//extern NSString *const NSNetworkStatusChangeNotification;
-
 @end
