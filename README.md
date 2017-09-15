@@ -188,4 +188,4 @@ static NSString *const stipulatedName = @""; //服务器约定名称
 [1]: https://github.com/ibireme/YYCache "YYCache"
 [2]: https://github.com/AFNetworking/AFNetworking "AFNetworking"
 [3]: https://github.com/GREENBANYAN/NSNetworkManager/blob/master/LICENSE "MIT License"
-[4]: http://www.jianshu.com/p/fb3999bb037a "简书"
+[4]: http://www.jianshu.com/p/e607046d6515 "简书"
