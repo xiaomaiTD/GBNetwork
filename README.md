@@ -22,13 +22,9 @@
 </pre>
 ### 使用许可
 `NSNetworkManager`使用[__MIT license__][3]协议，点击查看协议详情。
-### 使用CocoaPods安装
-> 1. 使用前请务必安装[__YYCache__][1]和[__AFNetworking__][2] <br/>
-> 2. 执行'pod search "NSNetworkManager"' <br/>
-> 3. 如果没有则是cocoapods版本不够新，执行'"pod update"'，之后重复步骤2操作。 <br/>
-<pre>
- pod 'NSNetworkManager'
-</pre>
+### 使用须知
+> 使用前请务必安装[__YYCache__][1]和[__AFNetworking__][2] <br/>
+
 ### 使用示例:
 - 使用前确保导入`NSNetworkManager.h`
 #### 实时监听当前APP的网络状态
