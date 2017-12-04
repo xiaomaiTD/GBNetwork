@@ -29,7 +29,7 @@
  * @brief 保存数据到缓存
  */
 +(void)saveDataCache:(id)data forkey:(NSString *)key;
-1
+
 /**
  * @brief 读取缓存
  */
