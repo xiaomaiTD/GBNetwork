@@ -1,4 +1,4 @@
-// NSNetworkProtocol.m
+// NSNetworkProtocol.h
 //
 // Copyright (c) 2017 BANYAN
 //
