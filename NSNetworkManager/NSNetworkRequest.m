@@ -43,8 +43,8 @@ static AFHTTPSessionManager *manager;
     
     manager.responseSerializer = [AFJSONResponseSerializer serializer]; //设置服务器返回结果的类型:JSON
     manager.operationQueue.maxConcurrentOperationCount = 4; //请求队列的最大并发数
-#pragma mark - token设置
-    [manager.requestSerializer setValue:@"" forHTTPHeaderField:@"accesstoken"];
+#warning token设置
+   // [manager.requestSerializer setValue:@"" forHTTPHeaderField:@"accesstoken"];
     
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json",
                                                          @"text/json",
