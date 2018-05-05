@@ -19,7 +19,6 @@ static NSString *const requestUrlString = @"http://api.budejie.com/api/api_open.
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     [GBNetworkMonitor registerNetworkNotification:self];
     NSLog(@"%@",[GBNetworkMonitor currentNetworkStatusString]);
 }
@@ -30,7 +29,6 @@ static NSString *const requestUrlString = @"http://api.budejie.com/api/api_open.
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
