@@ -1,0 +1,2 @@
+# GBNetwork
+基于YYCache和AFNetworking封装的网络状态监听以及请求库
